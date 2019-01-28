@@ -22,4 +22,8 @@ func main() {
 
 	fmt.Println(len(fruitSlice))
 	fmt.Println(fruitSlice[1:3])
+
+	//Append element into array slices
+	fruitSlice = append(fruitSlice, "Coconut")
+	fmt.Println(fruitSlice)
 }

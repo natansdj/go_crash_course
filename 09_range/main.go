@@ -4,10 +4,15 @@ import "fmt"
 
 func main() {
 	ids := []int{33, 76, 54, 23, 11, 2}
+	//Print ids
+	fmt.Println(ids)
 
 	// Loop through ids
 	for i, id := range ids {
 		fmt.Printf("%d - ID: %d\n", i, id)
+
+		//another way to print index and value
+		fmt.Println("index", i, "value", id)
 	}
 
 	// Not using index
